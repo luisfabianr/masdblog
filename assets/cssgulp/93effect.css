@@ -1,0 +1,128 @@
+
+/* # Media Queries effect
+---------------------------------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .single-post-widget.add-animation,
+  .project.add-animation,
+  p.add-animation {
+    transform: translate3D(0px, 150px, 0px);
+    -webkit-transform: translate3D(0px, 150px, 0px);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.6s;
+    -moz-transition: all 0.3s ease-out 0.6s;
+    -o-transition: all 0.3s ease-out 0.6s;
+    -ms-transition: all 0.3s ease-out 0.6s;
+    transition: all 0.3s ease-out 0.6s;
+  }
+  .single-post-widget.add-animation.animation-1,
+  .project.add-animation.animation-1 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .single-post-widget.add-animation.animation-2,
+  .project.add-animation.animation-2,
+  p.add-animation.animation-2 {
+    -webkit-transition: all 0.3s ease-out 0.15s;
+    -moz-transition: all 0.3s ease-out 0.15s;
+    -o-transition: all 0.3s ease-out 0.15s;
+    -ms-transition: all 0.3s ease-out 0.15s;
+    transition: all 0.3s ease-out 0.15s;
+  }
+  .single-post-widget.add-animation.animation-3,
+  .project.add-animation.animation-3,
+  p.add-animation.animation-3 {
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    -moz-transition: all 0.3s ease-out 0.3s;
+    -o-transition: all 0.3s ease-out 0.3s;
+    -ms-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s;
+  }
+  .single-post-widget.add-animation.animation-4,
+  .project.add-animation.animation-4,
+  p.add-animation.animation-4 {
+    -webkit-transition: all 0.3s ease-out 0.45s;
+    -moz-transition: all 0.3s ease-out 0.45s;
+    -o-transition: all 0.3s ease-out 0.45s;
+    -ms-transition: all 0.3s ease-out 0.45s;
+    transition: all 0.3s ease-out 0.45s;
+  }
+  .single-post-widget.add-animation.animate,
+  .project.add-animation.animate,
+  p.add-animation.animate {
+    transform: translate3D(0px, 0px, 0px);
+    -webkit-transform: translate3D(0px, 0px, 0px);
+    opacity: 1;
+  }
+  .single-post-widget.add-animation.animate.open,
+  p.add-animation.animate.open {
+    transform: none;
+    transition: none;
+  }
+
+  /* ## Titulos
+--------------------------------------------- */
+
+  .title.add-animation h5,
+  .title.add-animation h2,
+  .title.add-animation .separator-container,
+  .title.add-animation p {
+    transform: translate3D(0px, 150px, 0px);
+    -webkit-transform: translate3D(0px, 150px, 0px);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.6s;
+    -moz-transition: all 0.3s ease-out 0.6s;
+    -o-transition: all 0.3s ease-out 0.6s;
+    -ms-transition: all 0.3s ease-out 0.6s;
+    transition: all 0.3s ease-out 0.6s;
+  }
+  .title.add-animation h5 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .title.add-animation h2 {
+    -webkit-transition: all 0.3s ease-out 0.15s;
+    -moz-transition: all 0.3s ease-out 0.15s;
+    -o-transition: all 0.3s ease-out 0.15s;
+    -ms-transition: all 0.3s ease-out 0.15s;
+    transition: all 0.3s ease-out 0.15s;
+  }
+  .title.add-animation .separator-container {
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    -moz-transition: all 0.3s ease-out 0.3s;
+    -o-transition: all 0.3s ease-out 0.3s;
+    -ms-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s;
+  }
+  .title.add-animation p {
+    -webkit-transition: all 0.3s ease-out 0.45s;
+    -moz-transition: all 0.3s ease-out 0.45s;
+    -o-transition: all 0.3s ease-out 0.45s;
+    -ms-transition: all 0.3s ease-out 0.45s;
+    transition: all 0.3s ease-out 0.45s;
+  }
+  .title.add-animation.animate h5,
+  .title.add-animation.animate h2,
+  .title.add-animation.animate .separator-container,
+  .title.add-animation.animate p {
+    transform: translate3D(0px, 0px, 0px);
+    -webkit-transform: translate3D(0px, 0px, 0px);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

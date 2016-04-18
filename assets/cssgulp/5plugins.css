@@ -1,0 +1,228 @@
+/* # Table of Contents
+	- Genesis eNews Extended
+	- Jetpack
+
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget,
+.enews-widget .widget-title {
+	color: #fff;
+}
+
+.sidebar .widget.enews-widget {
+	background-color: #333;
+}
+
+.enews-widget input,
+.enews-widget input:focus {
+	border: 1px solid #333;
+}
+
+.enews-widget input {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 16px;
+}
+
+.enews-widget input[type="submit"] {
+	background-color: #c3251d;
+	color: #fff;
+	margin: 0;
+	width: 100%;
+}
+
+.enews-widget input:hover[type="submit"],
+.enews-widget input:focus[type="submit"]  {
+	background-color: #fff;
+	color: #333;
+}
+
+.enews form + p {
+	margin-top: 24px;
+}
+
+/* ## Jetpack
+--------------------------------------------- */
+
+#wpstats {
+	display: none;
+}
+
+
+/* # Skip Links
+---------------------------------------------------------------------------------------------------- */
+.genesis-skip-link {
+	margin: 0;
+}
+
+.genesis-skip-link li {
+	height: 0;
+	width: 0;
+	list-style: none;
+}
+
+/* Display outline on focus */
+:focus {
+	color: #333;
+	outline: #ccc solid 1px;
+}
+
+
+/* ## Genesis Responsive Slider 
+--------------------------------------------- */
+
+html > body div[class*="slide-excerpt slide-"] .slide-excerpt-border{
+	border: none;
+	margin:0;
+}
+.widget-wrap #genesis-responsive-slider{
+	border:none;
+	padding: 0px 100px 0
+}
+.flexslider{
+	max-width: 100%;
+}
+.flexslider .slides img{
+	width: 100%;
+}
+
+.slides .slide-excerpt{
+	background-color: black;
+    margin: 0 auto;
+    left: 0;
+    max-width: 970px;
+    opacity: 1;
+    right: 0;
+    width: 100%;
+}
+html > body div.slide-excerpt-border{
+	background-color: rgba(0,0,0,0);
+    bottom: 150px;
+    font-size: 36px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.slide-excerpt-border a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 0 0 20px;
+}
+.slide-excerpt-border a:hover{
+	border-bottom: none;
+}
+.slide-excerpt-border p{
+	color: #fff;
+	font-size: 0px
+}
+.slide-excerpt-border p>a{
+    font-weight: 400;
+    display: block;
+    font-size: 12px;
+    line-height: 52px;
+    padding: 0 0 0 0em;
+    position: relative;
+    text-transform: uppercase;
+    width: 30%;
+    font-family: 'Work Sans',sans-serif;
+}
+.slide-excerpt-border p>a:before{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 11px;
+    border-color: transparent transparent transparent #fff;
+    content: "";
+    display: block;
+    margin-top: -6px;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+}
+.slide-excerpt-border p>a:after{
+	background-color: rgba(255, 255, 255, 0);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 53px;
+    top: 0;
+    width: 1px;
+}
+div[class*="slide-excerpt slide-"]{
+	  background: none;
+}
+#genesis-responsive-slider .flex-control-nav{
+    margin-top: -5em;
+}
+
+/* ## Recommed this 
+--------------------------------------------- */
+#recommed-this .dot-irecommendthis {
+  background-image: url(/wordpress441/wp-content/themes/genesis-sample/images/recommend.svg);
+  background-position: 0 0;
+  width: 42px;
+  height: 44px;
+}
+.dot-irecommendthis:hover, .dot-irecommendthis.active {
+  background-position: 0 -45px !important;
+}
+span.dot-irecommendthis-count {
+    color: #E60064;
+    margin-left: 30px;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#recommed-this{
+  float: left;
+  margin-right: 2em;
+  margin-top: 8px;
+}
+#sharing{
+	float: left;
+}
+.label-recommend {
+    margin-top: -30px;
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+/* ##Tiny MCE 
+--------------------------------------------- */
+.cita-biblio{
+  color: red;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.resaltar-text{
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 1em;
+  display: inline-block;
+  text-indent: 0;
+}
+
+
+
+
+
+
+

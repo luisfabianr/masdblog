@@ -1,0 +1,98 @@
+.single-format-quote  div.sharedaddy div.sd-block {
+	display: none;
+}
+
+div.sharedaddy .sd-content {
+	float: left;
+	margin-top: 10px;
+	margin-top: 1rem;
+}
+
+div.sharedaddy a.sd-button {
+	border: none !important;
+	box-shadow: none;
+}
+
+.sd-social-icon-text a.sd-button a.sd-button {
+	opacity: 1;
+	padding: 4px 10px;
+	padding: .4rem 1rem;
+}
+
+li.share-facebook a.sd-button,
+li.share-google-plus-1 a.sd-button,
+li.share-tumblr a.sd-button,
+li.share-pinterest a.sd-button,
+li.share-twitter a.sd-button,
+li.share-pocket a.sd-button {
+	background: none;
+	box-shadow: none;
+	border: none;
+	font-weight: 300;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	background-image: none !important;
+	padding: 8px 20px !important;
+}
+.sd-social-icon-text .sd-content li[class*="share-"] a:before{
+	content: '';
+	color: white;
+}
+
+li.share-facebook a.sd-button span,
+li.share-google-plus-1 a.sd-button span,
+li.share-tumblr a.sd-button span,
+li.share-pinterest a.sd-button span,
+li.share-twitter a.sd-button span,
+li.share-pocket a.sd-button span { 
+	color: #fff !important; 
+}
+
+li.share-facebook a.sd-button:hover,
+li.share-twitter a.sd-button:hover,
+li.share-google-plus-1 a.sd-button:hover,
+li.share-tumblr a.sd-button:hover,
+li.share-pocket a.sd-button:hover,
+li.share-pinterest a.sd-button:hover {
+	opacity: 0.8;
+}
+
+li.share-facebook a.sd-button {
+	background: #4965a0 !important;
+}
+
+li.share-twitter a.sd-button {
+	background: #55ACEE !important;
+}
+
+li.share-google-plus-1 a.sd-button {
+	background: #dd4b39 !important;
+}
+
+li.share-pocket a.sd-button {
+	background: #F15367 !important;
+}
+
+li.share-pinterest a.sd-button {
+	background: #D5222A !important;
+}
+
+.sd-button span.share-count {
+	display: none;
+}
+
+h3.sd-title::before {
+	border-top: none !important;
+}
+
+h3.sd-title {
+	float: left;
+	margin-right: 10px !important;
+	padding-top: 10px;
+}
+
+a.sd-button.share-more {
+	padding: 8px 20px !important;
+	font-size: 18px !important;
+	
+}
